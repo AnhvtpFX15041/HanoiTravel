@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+.col-m-1{width:8.33%}
+.col-m-2{width:16.66%}
+.col-m-3{width:25%}
+.col-m-4{width:33.33%}
+.col-m-5{width:41.66%}
+.col-m-6{width:50%}
+.col-m-7{width:58.33%}
+.col-m-8{width:66.66%}
+.col-m-9{width:75%}
+.col-m-10{width:83.33%}
+.col-m-11{width:91.66%}
+.col-m-12{width:100%}
+body{
+    margin: 0 auto;
+    width:100%;
+}
+#menu{
+    height: auto; 
+    margin: 0;
+    background-color: #556270; 
+}
+#menu ul{
+    margin:0;
+    padding: 0;
+}
+#menu li{
+    list-style-type:none;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 7%;
+    margin-right: 2%;
+    margin-bottom: 7%;
+    font-family: 'Roboto', sans-serif;
+}
+#signup{
+    margin-left: 50%;
+}
+#brand{
+    margin-left: 3%;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 2vw;
+}
+#menu a:hover, a:active{
+    text-decoration: none;
+    color: red;
+}
+#banner{
+    height: auto;
+    margin-top: 0;
+    padding: 6% 3% 4%;
+    font-family: 'Roboto Condensed', sans-serif;
+    border-bottom: 1px groove #eeeeee;
+    border-bottom-width: 50%;
+}
+#banner h1{
+    color: black;
+    font-size: 250%;
+}
+#banner p{
+    color: black;
+    font-size: 120%; 
+}
+#main-content{
+    height: auto;
+    margin-top: 0px;
+    padding-top: 2px;
+    padding-left: 0;
+    padding-right: 0;
+}
+#text{
+    height: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black; 
+    margin-right: 7%;
+    margin-left: 3%;  
+}
+#text h2{
+    font-size: 250%;
+}
+#text p{
+    font-size: 90%;
+}
+.imgcol{
+    float: left;
+}
+img{
+    width: 87%;
+    height: auto;
+    display: block;
+    margin: 6% auto;
+}
+#invite{
+    margin-top: 0;
+}
+#footer{
+    height:auto;
+    padding-bottom: 4%;
+    padding-top: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#footer h4{
+    color: #354046;
+    margin-top: 9%;
+    font-size: 180%;
+}
+.footercol{
+    float:left;
+    padding-left: 3%;
+}
+#footer a{
+    color: #247aee;
+}
+#footer a:hover{
+    color: red;
+}

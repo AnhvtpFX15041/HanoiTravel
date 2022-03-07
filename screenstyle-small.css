@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+[class*="col-"]{
+    width:100%;
+}
+body{
+    margin: 0 auto;
+    width: 100%;
+}
+#menu{
+    height: auto; 
+    margin: 0;
+    padding-left: 0;
+    background-color: #556270; 
+}
+#menu ul{
+    margin:0;
+    padding: 0;
+}
+#menu li{
+    list-style-type:none;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 7%;
+    margin-right: 7%;
+    margin-bottom: 7%;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+#brand{
+    margin-left: 5%;
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+}
+#menu a:hover, a:active{
+    color: red;
+}
+#banner{
+    height: auto;
+    margin-top: 0;
+    padding: 6% 5% 7%;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+#banner h1{
+    color: black;
+    font-size: 250%;
+}
+#banner p{
+    color: black;
+    font-size: 120%; 
+}
+#main-content{
+    height: auto;
+    margin-top: 0px;
+    padding-top: 2%;
+    padding-left: 0;
+    padding-right: 0;
+}
+#text{
+    height: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: black; 
+    margin-left: 5%;
+    margin-right: 7%;  
+}
+#text h2{
+    font-size: 250%;
+}
+#text p{
+    font-size: 90%;
+}
+img{
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 4% auto;
+}
+#footer{
+    height:auto;
+    margin-bottom: 4%;
+    font-family: 'Roboto', sans-serif;
+}
+#footer h4{
+    color: #354046;
+    margin-top: 7%;
+    font-size: 180%;
+    margin-right: 5%;
+}
+.footercol{
+    padding-left: 5%;
+}
+#footer a{
+    color: black;
+}
+#footer a:hover{
+    color: red;
+}

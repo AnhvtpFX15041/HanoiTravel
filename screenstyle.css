@@ -1,0 +1,137 @@
+* {
+    box-sizing: border-box;
+}
+.col-l-1{width:8.33%}
+.col-l-2{width:16.66%}
+.col-l-3{width:25%}
+.col-l-4{width:33.33%}
+.col-l-5{width:41.66%}
+.col-l-6{width:50%}
+.col-l-7{width:58.33%}
+.col-l-8{width:66.66%}
+.col-l-9{width:75%}
+.col-l-10{width:83.33%}
+.col-l-11{width:91.66%}
+.col-l-12{width:100%}
+body{
+    width:100%;
+    margin: 0 auto;
+}
+#menu ul{
+    margin:0;
+    padding:0;
+}
+#menu{
+    height: auto;
+    background-color: white;
+    padding-right: 0px;
+}
+#menu ul{
+    margin:0;
+    padding:0;
+}
+#menu li{
+    list-style-type:none;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    margin-top: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+    font-family: 'Roboto', sans-serif;
+}
+#menu a{
+    text-decoration: none;
+    color: #736772;
+    font-weight: bold;
+    font-size: 1vw;
+}
+#menu a:hover, a:active{
+    text-decoration: none;
+    color: black;
+}
+#brand{
+    margin-left: 5%;
+}
+#signup{
+    margin-left: 64%;
+}
+#banner{
+    width: 100%;
+    height: 480px;
+    background-image: url("images/lodging.png");
+    background-size: cover;
+    position: relative;
+}
+#banner h1{
+    font-family: 'PT Serif', serif;
+    color: white;
+    font-size: 250%;
+    position: absolute;
+    top: 23%;
+    left: 5%;
+}
+#banner p{
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 120%;
+    position: absolute;
+    left: 5%;
+    top: 40%;
+}
+#main-content{
+    height: auto;
+    background-color: #efefef;
+    margin: 0;
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+#text{
+    height: 100px;
+    margin-left: 3%;
+    font-family: 'Roboto', sans-serif;
+    color: #434553;
+    line-height: 100%;
+}
+#text p{
+    font-size: 90%;
+}
+.imgcol{
+    float:left;
+}
+img{
+    width: 85%;
+    height: auto;
+    display: block;
+    margin: 9% auto;
+}
+#invite{
+    margin-top: 9%;
+}
+#footer{
+    height:auto;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding-bottom: 3%;
+}
+.footercol{
+    float: left;
+    padding-left: 3%;
+}
+#footer h4{
+    color: #354046;
+    font-family: 'PT Serif', serif;
+}
+#footer p{
+    font-size: 90%;
+}
+#footer a{
+    color: #247aee;
+}
+#footer a:hover{
+    color: red;
+}
+
+
+

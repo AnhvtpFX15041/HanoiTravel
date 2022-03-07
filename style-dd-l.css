@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+.col-l-1{width:8.33%}
+.col-l-2{width:16.66%}
+.col-l-3{width:25%}
+.col-l-4{width:33.33%}
+.col-l-5{width:41.66%}
+.col-l-6{width:50%}
+.col-l-7{width:58.33%}
+.col-l-8{width:66.66%}
+.col-l-9{width:75%}
+.col-l-10{width:83.33%}
+.col-l-11{width:91.66%}
+.col-l-12{width:100%}
+body{
+    width: 100%;
+    margin: 0 auto;
+}
+nav{
+    margin-bottom:0;
+}
+ul{
+    margin: 0;
+    padding: 1% 8.33%;
+    text-align: center;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    text-decoration: none;
+    color: #236baa;
+    font-size: 1.7vw;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    color: red;
+}
+header{
+    background-image: url("resources/diem-den-banner.jpg");
+    background-size: cover;
+    height: 36.5vw;
+    margin: 0;
+    position: relative;
+}
+header h1{
+    font-family: 'Qwitcher Grypen', cursive;
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    font-size: 14vw;
+    color: white;
+    margin: 0;
+    
+}
+header p{
+    position: absolute;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-size: 4vw;
+    left: 3%;
+    top: 50%;
+    margin: 0;
+    color: white;
+    width: 40%;
+}
+section{
+    text-align: center;
+}
+#xung-quanh{
+    background-color: #f1f1ef;
+    padding: 2% 0 1.5%;
+    overflow: auto;
+}
+#trung-tam{
+    background-color: #d9eeef;
+    padding: 2% 0 1.5%;
+    overflow: auto;
+}
+section .col-l-3{
+    float: left;
+    padding:1% 2.5%;
+}
+section img{
+    width: 80%;
+    height: auto;
+}
+section p{
+    text-align: justify;
+}
+h2{
+    font-family: 'Lobster', cursive;
+    font-size: 3vw;
+    margin: 0;
+}
+h3{
+    font-size: 1.5vw;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 1.3vw;
+    font-family: 'Roboto', sans-serif;
+}
+footer{
+    background-color: #236baa;
+    color: white;
+    padding: 1% 15%;
+    font-family: 'Roboto', sans-serif;
+}
+footer img{
+    width: 7vw;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+footer div{
+    display: inline-block;
+}
+footer h3{
+    font-size:1.8vw;
+}
+
